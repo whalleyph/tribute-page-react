@@ -2,6 +2,7 @@ import "./App.css";
 import NavBar from "./NavBar.jsx";
 import Header from "./Header.jsx";
 import MementoBodyContent from "./MementoBodyContent.jsx";
+import MementoRecommendations from "./MementoRecommendations.jsx";
 
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       <NavBar />
       <Header />
       <MementoBodyContent />
+      <MementoRecommendations />
     </div>
   );
 }
